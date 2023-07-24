@@ -7,7 +7,7 @@ use IEEE.std_logic_1164.all;
 entity aX_Comparador is
     port (
         x, z    : in std_logic_vector(2 downto 0);
-        f       : out std_logic;
+        f       : out std_logic
     );
 end entity aX_Comparador;
 
